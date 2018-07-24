@@ -8,7 +8,7 @@ namespace SuperSystems.UnityBuild
     {
         public int callbackOrder
         {
-            get { return 0; }
+            get { return 10000; }
         }
 
         public void OnPostprocessBuild(BuildTarget target, string path)
